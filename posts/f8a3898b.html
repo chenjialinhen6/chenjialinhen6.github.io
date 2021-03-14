@@ -10,12 +10,12 @@
     <meta name="google-site-verification" content="KeoTn_OFy4ndJwXNmm2gMeQfPhd7alqE9vQDwI32KCY" />
     <meta name="google-site-verification" content="pBWoGvVEP36FzzS4xIpoMejc5UKi3RKcxd9rWWcjiDg" />
     <meta name="360-site-verification" content="2db45fc772bbd3e7efd0985eec0fff97" />
-    <meta name="description" content="&amp;lt;！DOCTYPE html&gt;
+    <meta name="description" content="基本格式：&amp;lt;！DOCTYPE html&gt;
 &amp;lt;html lang = &#34;en&#34;&gt;
 &amp;lt;head&gt;
     &amp;lt;meat charset = &#34;UTF-8&#34;&gt;
     &amp;lt;title&gt;&amp;lt;/title&gt;
-    &amp;lt;sty">
+    //">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -77,11 +77,11 @@
         </script>
     
 
-<meta name="generator" content="Hexo 5.3.0">
+<meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/atom.xml" title="Torres-圣君" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="Torres-圣君" type="application/atom+xml"><!-- hexo-inject:begin --><!-- hexo-inject:end -->
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
-<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
 
 
 
@@ -861,21 +861,26 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <pre class="line-numbers language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>！DOCTYPE</span> <span class="token attr-name">html</span><span class="token punctuation">></span></span>
+                <h4 id="基本格式："><a href="#基本格式：" class="headerlink" title="基本格式："></a>基本格式：</h4><pre class="line-numbers language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>！DOCTYPE</span> <span class="token attr-name">html</span><span class="token punctuation">></span></span>
 &lt;html lang = "en">
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">></span></span>
     &lt;meat charset = "UTF-8">
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">></span></span>
+    //外部css
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text/css<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>路径<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+    //内部css
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">></span></span><span class="token style language-css">
-        标签名称；
-        属性名称；属性对应值；
-        <span class="token number">......</span>
+        <span class="token selector">选择器 </span><span class="token punctuation">{</span>
+            属性名称；属性对应值；
+        <span class="token punctuation">}</span>
     </span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">></span></span>
+    //行内css
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token style-attr language-css"><span class="token attr-name"> <span class="token attr-name">style</span></span><span class="token punctuation">="</span><span class="token attr-value"><span class="token property">color</span><span class="token punctuation">:</span>red<span class="token punctuation">;</span></span><span class="token punctuation">"</span></span><span class="token punctuation">></span></span>行内css<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">></span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h4 id="文字属性相关"><a href="#文字属性相关" class="headerlink" title="文字属性相关"></a>文字属性相关</h4><ul>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">></span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h4 id="0x001：文字属性相关"><a href="#0x001：文字属性相关" class="headerlink" title="0x001：文字属性相关"></a>0x001：文字属性相关</h4><ul>
 <li><p>文字样式</p>
 <ul>
 <li><code>font-style:样式</code></li>
@@ -902,7 +907,7 @@
 </ul>
 </li>
 </ul>
-<h4 id="文本属性相关"><a href="#文本属性相关" class="headerlink" title="文本属性相关"></a>文本属性相关</h4><ul>
+<h4 id="0x002：文本属性相关"><a href="#0x002：文本属性相关" class="headerlink" title="0x002：文本属性相关"></a>0x002：文本属性相关</h4><ul>
 <li><p>文本缩进</p>
 <ul>
 <li><code>text-indent:缩进距离</code></li>
@@ -929,7 +934,7 @@
 </ul>
 </li>
 </ul>
-<h4 id="图片边框属性相关"><a href="#图片边框属性相关" class="headerlink" title="图片边框属性相关"></a>图片边框属性相关</h4><ul>
+<h4 id="0x003：图片边框属性相关"><a href="#0x003：图片边框属性相关" class="headerlink" title="0x003：图片边框属性相关"></a>0x003：图片边框属性相关</h4><ul>
 <li><p>边框宽度</p>
 <ul>
 <li><code>border-width: 宽度px</code></li>
@@ -951,7 +956,7 @@
 </ul>
 </li>
 </ul>
-<h4 id="选择器"><a href="#选择器" class="headerlink" title="选择器"></a>选择器</h4><ul>
+<h4 id="0x004：选择器相关"><a href="#0x004：选择器相关" class="headerlink" title="0x004：选择器相关"></a>0x004：选择器相关</h4><ul>
 <li>标签选择器<pre class="line-numbers language-css"><code class="language-css"><span class="token selector">标签</span><span class="token punctuation">{</span>
  属性<span class="token punctuation">:</span>值<span class="token punctuation">;</span>
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
@@ -995,7 +1000,7 @@
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 </li>
 </ul>
-<h3 id="序选择器相关"><a href="#序选择器相关" class="headerlink" title="序选择器相关"></a>序选择器相关</h3><ul>
+<h4 id="0x005：序选择器相关"><a href="#0x005：序选择器相关" class="headerlink" title="0x005：序选择器相关"></a>0x005：序选择器相关</h4><ul>
 <li>选中同级别中的第一个标签<pre class="line-numbers language-css"><code class="language-css"><span class="token selector">标签<span class="token pseudo-class">:first-child</span>
 </span><span class="token punctuation">{</span>
  属性<span class="token punctuation">:</span>值<span class="token punctuation">;</span>
@@ -1062,7 +1067,7 @@
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 </li>
 </ul>
-<h4 id="属性选择器相关"><a href="#属性选择器相关" class="headerlink" title="属性选择器相关"></a>属性选择器相关</h4><ul>
+<h4 id="0x006：属性选择器相关"><a href="#0x006：属性选择器相关" class="headerlink" title="0x006：属性选择器相关"></a>0x006：属性选择器相关</h4><ul>
 <li>根据指定属性找到对应的标签<pre class="line-numbers language-css"><code class="language-css"><span class="token selector">标签<span class="token attribute">[id]</span>
 </span><span class="token punctuation">{</span>
  属性<span class="token punctuation">:</span>值<span class="token punctuation">;</span>
@@ -1088,19 +1093,18 @@
  属性<span class="token punctuation">:</span>值<span class="token punctuation">;</span>
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 </li>
-<li>选中全文的标签设置属性<br>```css</li>
+<li>选中全文的标签设置属性</li>
 </ul>
-<p>*<br>{<br>    属性:值;<br>}</p>
-<pre><code>
-#### 优先级相关
-
- - 提升直接选中标签的优先性
-```css
-直接选中的标签
-{
-    属性:值!important;
-}</code></pre>
-<ul>
+<pre class="line-numbers language-css"><code class="language-css"><span class="token selector">*
+</span><span class="token punctuation">{</span>
+    属性<span class="token punctuation">:</span>值<span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<h4 id="0x007：优先级相关"><a href="#0x007：优先级相关" class="headerlink" title="0x007：优先级相关"></a>0x007：优先级相关</h4><ul>
+<li>提升直接选中标签的优先性<pre class="line-numbers language-css"><code class="language-css"><span class="token selector">直接选中的标签
+</span><span class="token punctuation">{</span>
+ 属性<span class="token punctuation">:</span>值<span class="token important">!important</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+</li>
 <li>直接选中标签的权重问题<ul>
 <li>优先级：<code>id&gt; 类&gt; 标签&gt; 继承&gt; 默认</code></li>
 <li>计算优先级得权重</li>
@@ -1108,7 +1112,7 @@
 </ul>
 </li>
 </ul>
-<h4 id="div和span标签"><a href="#div和span标签" class="headerlink" title="div和span标签"></a>div和span标签</h4><ul>
+<h4 id="0x008：div和span标签"><a href="#0x008：div和span标签" class="headerlink" title="0x008：div和span标签"></a>0x008：div和span标签</h4><ul>
 <li><p>div标签 – 容器级标签（可以嵌套所有的标签）</p>
 <ul>
 <li>作用：完成网页的基本布局</li>
@@ -1128,7 +1132,7 @@
 </ul>
 </li>
 </ul>
-<h4 id="显示模式的转换"><a href="#显示模式的转换" class="headerlink" title="显示模式的转换"></a>显示模式的转换</h4><ul>
+<h4 id="0x009：显示模式的转换"><a href="#0x009：显示模式的转换" class="headerlink" title="0x009：显示模式的转换"></a>0x009：显示模式的转换</h4><ul>
 <li>转换为块级元素<ul>
 <li>块级元素是在容器级标签的基础上多了p标签</li>
 <li>注意点：块级元素独占一行，可以控制宽高</li>
@@ -1150,7 +1154,7 @@
 </ul>
 </li>
 </ul>
-<h4 id="背景属性"><a href="#背景属性" class="headerlink" title="背景属性"></a>背景属性</h4><ul>
+<h4 id="0x010：背景属性"><a href="#0x010：背景属性" class="headerlink" title="0x010：背景属性"></a>0x010：背景属性</h4><ul>
 <li>设置背景颜色<pre class="line-numbers language-css"><code class="language-css"><span class="token property">background-color</span><span class="token punctuation">:</span> 颜色<span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 </li>
 <li>设置背景图片<pre><code>background-image: url(图片地址);</code></pre>
@@ -1173,44 +1177,45 @@
 <li>背景属性缩写<pre class="line-numbers language-css"><code class="language-css"><span class="token property">background</span><span class="token punctuation">:</span> 颜色 图片 平铺 关联 定位<span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 </li>
 </ul>
-<h4 id="盒模型属性css"><a href="#盒模型属性css" class="headerlink" title="盒模型属性css"></a>盒模型属性css</h4><ul>
-<li>边框属性<ul>
+<h4 id="0x011：盒模型属性css"><a href="#0x011：盒模型属性css" class="headerlink" title="0x011：盒模型属性css"></a>0x011：盒模型属性css</h4><ul>
+<li><p>边框属性</p>
+<ul>
 <li>格式：<pre class="line-numbers language-css"><code class="language-css"><span class="token property">border-top</span><span class="token punctuation">:</span> 宽度 样式 颜色<span class="token punctuation">;</span>       //上边框
 <span class="token property">border-left</span><span class="token punctuation">:</span> 宽度 样式 颜色<span class="token punctuation">;</span>      //左边框
 <span class="token property">border-right</span><span class="token punctuation">:</span> 宽度 样式 颜色<span class="token punctuation">;</span>     //右边框
 <span class="token property">border-botom</span><span class="token punctuation">:</span> 宽度 样式 颜色<span class="token punctuation">;</span>     //下边框
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<span class="token property">border</span><span class="token punctuation">:</span> 宽度 样式 颜色<span class="token punctuation">;</span>           //四条边都相等
+例：<span class="token property">border</span><span class="token punctuation">:</span> <span class="token number">1</span>px solid <span class="token hexcode">#000</span><span class="token punctuation">;</span>
+//虚线样式：dashed
+<span class="token property">border-width</span><span class="token punctuation">:</span> 上 右 下 左<span class="token punctuation">;</span>
+<span class="token property">border-style</span><span class="token punctuation">:</span> 上 右 下 左<span class="token punctuation">;</span>       //一步设置四条边
+<span class="token property">border-color</span><span class="token punctuation">:</span> 上 右 下 左<span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 </li>
 </ul>
 </li>
-</ul>
-<p>border: 宽度 样式 颜色;           //四条边都相等<br>例：border: 1px solid #000;<br>//虚线样式：dashed<br>border-width: 上 右 下 左;<br>border-style: 上 右 下 左;       //一步设置四条边<br>border-color: 上 右 下 左;</p>
-<pre><code> - 内边距属性
-```css
-padding-top: 宽度;
-padding-left: 宽度;
-padding-right: 宽度;
-padding-bottom: 宽度;
-
-padding: 上，右，下，左;    //四条边的内边距宽度</code></pre>
-<ul>
-<li>外边距属性<pre class="line-numbers language-css"><code class="language-css"><span class="token property">margin-top</span><span class="token punctuation">:</span> 宽度<span class="token punctuation">;</span>
+<li><p>内边距属性</p>
+<pre class="line-numbers language-css"><code class="language-css"><span class="token property">padding-top</span><span class="token punctuation">:</span> 宽度<span class="token punctuation">;</span>
+<span class="token property">padding-left</span><span class="token punctuation">:</span> 宽度<span class="token punctuation">;</span>
+<span class="token property">padding-right</span><span class="token punctuation">:</span> 宽度<span class="token punctuation">;</span>
+<span class="token property">padding-bottom</span><span class="token punctuation">:</span> 宽度<span class="token punctuation">;</span>
+<span class="token property">padding</span><span class="token punctuation">:</span> 上，右，下，左<span class="token punctuation">;</span>    //四条边的内边距宽度<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+</li>
+<li><p>外边距属性</p>
+<pre class="line-numbers language-css"><code class="language-css"><span class="token property">margin-top</span><span class="token punctuation">:</span> 宽度<span class="token punctuation">;</span>
 <span class="token property">margin-left</span><span class="token punctuation">:</span> 宽度<span class="token punctuation">;</span>
 <span class="token property">margin-right</span><span class="token punctuation">:</span> 宽度<span class="token punctuation">;</span>
 <span class="token property">margin-bottom</span><span class="token punctuation">:</span> 宽度<span class="token punctuation">;</span>
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<span class="token property">margin</span><span class="token punctuation">:</span> 上，右，下，左<span class="token punctuation">;</span>     //四条边的外边距宽度
+<span class="token property">margin</span><span class="token punctuation">:</span> 上 auto<span class="token punctuation">;</span>        //auto：只可水平方向居中<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 </li>
-</ul>
-<p>margin: 上，右，下，左;     //四条边的外边距宽度<br>margin: 上 auto;        //auto：只可水平方向居中</p>
-<pre><code> - 盒子模型计算
-```css
-内容宽高 = width或height
+<li><p>盒子模型计算</p>
+<pre><code>内容宽高 = width或height
 外边距：margin
 内边距：padding
 元素宽高  = 边框 + 内边距 + `内容高度`或`宽度`
 边框：border
 元素空间宽高 = 外边框 + 边框 + 内边距 + `内容高度`或`宽度`</code></pre>
-<ul>
+</li>
 <li><p>盒子box-sizing属性</p>
 <ul>
 <li>作用：<ul>
@@ -1223,23 +1228,22 @@ padding: 上，右，下，左;    //四条边的内边距宽度</code></pre>
 </li>
 <li><p>水平居中</p>
 <pre class="line-numbers language-css"><code class="language-css"><span class="token property">text-align</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span>  和  <span class="token property">margin</span><span class="token punctuation">:</span> <span class="token number">0</span> auto<span class="token punctuation">;</span> 的区别
-<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<span class="token property">text-align</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span> -> 边框内部的内容居中
+<span class="token property">margin</span><span class="token punctuation">:</span> <span class="token number">0</span> auto<span class="token punctuation">;</span> -> 盒子边框整体居中<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+</li>
+<li><p>清空默认的外边距</p>
 </li>
 </ul>
-<p>text-align: center; -&gt; 边框内部的内容居中<br>margin: 0 auto; -&gt; 盒子边框整体居中</p>
-<pre><code> - 清空默认的外边距
-```css
-*                //范围太广比较不实用
-{
-padding: 0;
-margin: 0;
-} 
-
-body, div, dl, dt, dd, ul,ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, tex tarea, p, blockquote, th, td        //用于大项目的开发时
-{
-padding: 0;
-margin: 0;
-}</code></pre>
+<pre class="line-numbers language-css"><code class="language-css"><span class="token selector">//范围太广比较不实用
+* </span><span class="token punctuation">{</span>
+<span class="token property">padding</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token property">margin</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">//用于大项目的开发时
+body, div, dl, dt, dd, ul,ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, tex tarea, p, blockquote, th, td </span><span class="token punctuation">{</span>
+<span class="token property">padding</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token property">margin</span><span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <ul>
 <li>边框内的行高<ul>
 <li>作用：<ul>
@@ -1251,9 +1255,8 @@ margin: 0;
 </ul>
 </li>
 </ul>
-<h4 id="浮动流"><a href="#浮动流" class="headerlink" title="浮动流"></a>浮动流</h4><ul>
-<li><p>浮动流的基本概念</p>
-<ul>
+<h4 id="0x012：浮动流"><a href="#0x012：浮动流" class="headerlink" title="0x012：浮动流"></a>0x012：浮动流</h4><ul>
+<li>浮动流的基本概念<ul>
 <li>注意点：<ul>
 <li>float中不能使用center居中，也不能使用margin: 0 auto进行距中</li>
 </ul>
@@ -1262,15 +1265,19 @@ margin: 0;
 <li>无论是块级元素/行内元素/块级行内元素<code>都可以进行水平排版</code>、<code>都可以进行设置宽高</code></li>
 </ul>
 </li>
-<li>格式：<pre class="line-numbers language-css"><code class="language-css"><span class="token property">float</span><span class="token punctuation">:</span> left<span class="token punctuation">;</span>             //左对齐
-<span class="token property">float</span><span class="token punctuation">:</span> right<span class="token punctuation">;</span>           //右对齐<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-</li>
+<li>格式：</li>
 </ul>
 </li>
-<li><p>浮动的排版规则</p>
+</ul>
+<pre class="line-numbers language-css"><code class="language-css"><span class="token property">float</span><span class="token punctuation">:</span> left<span class="token punctuation">;</span>             //左对齐
+<span class="token property">float</span><span class="token punctuation">:</span> right<span class="token punctuation">;</span>           //右对齐<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 <ul>
+<li><ul>
+<li>浮动的排版规则<ul>
 <li>从外向内，从上向下；</li>
 <li>在浮动流中，浮动的元素不能撑起父元素的高度。</li>
+</ul>
+</li>
 </ul>
 </li>
 <li><p>清除浮动</p>
@@ -1290,7 +1297,8 @@ margin: 0;
 </li>
 <li><p>伪元素选择器</p>
 <ul>
-<li>格式（div内容之前）：<pre class="line-numbers language-css"><code class="language-css"><span class="token selector">div<span class="token pseudo-element">::before</span>
+<li><p>格式（div内容之前）：</p>
+<pre class="line-numbers language-css"><code class="language-css"><span class="token selector">div<span class="token pseudo-element">::before</span>
 </span><span class="token punctuation">{</span>
 <span class="token property">content</span><span class="token punctuation">:</span> <span class="token string">"内容"</span><span class="token punctuation">;</span>         //添加子元素内容
 <span class="token property">width</span><span class="token punctuation">:</span> 宽度<span class="token punctuation">;</span>               //添加内容的宽度
@@ -1300,7 +1308,8 @@ margin: 0;
 <span class="token property">visibility</span><span class="token punctuation">:</span> hidden<span class="token punctuation">;</span>     //隐藏添加的内容
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 </li>
-<li>格式（div内容之后）：<pre class="line-numbers language-css"><code class="language-css"><span class="token selector">div<span class="token pseudo-element">::after</span>
+<li><p>格式（div内容之后）：</p>
+<pre class="line-numbers language-css"><code class="language-css"><span class="token selector">div<span class="token pseudo-element">::after</span>
 </span><span class="token punctuation">{</span>
 <span class="token property">content</span><span class="token punctuation">:</span> <span class="token string">"内容"</span><span class="token punctuation">;</span>        //添加子元素内容
 <span class="token property">width</span><span class="token punctuation">:</span> 宽度<span class="token punctuation">;</span>               //添加内容的宽度
@@ -1313,14 +1322,16 @@ margin: 0;
 </ul>
 </li>
 </ul>
-<h4 id="定位流"><a href="#定位流" class="headerlink" title="定位流"></a>定位流</h4><ul>
+<h4 id="0x013：定位流"><a href="#0x013：定位流" class="headerlink" title="0x013：定位流"></a>0x013：定位流</h4><ul>
 <li><p>标准定位</p>
 <ul>
-<li>注意点：<ul>
+<li><p>注意点：</p>
+<ul>
 <li>标准定位流不会脱离标准流的空间，只能在标准流内进行上右下左的移动</li>
 </ul>
 </li>
-<li>格式：<pre class="line-numbers language-css"><code class="language-css"><span class="token property">position</span><span class="token punctuation">:</span> relative<span class="token punctuation">;</span>
+<li><p>格式：</p>
+<pre class="line-numbers language-css"><code class="language-css"><span class="token property">position</span><span class="token punctuation">:</span> relative<span class="token punctuation">;</span>
 <span class="token property">top</span><span class="token punctuation">:</span> 大小px<span class="token punctuation">;</span>              //相当于上外边距
 <span class="token property">right</span><span class="token punctuation">:</span>  大小px<span class="token punctuation">;</span>           //相当于右外边距
 <span class="token property">bottom</span><span class="token punctuation">:</span> 大小px<span class="token punctuation">;</span>       //相当于下外边距
@@ -1330,11 +1341,13 @@ margin: 0;
 </li>
 <li><p>绝对定位</p>
 <ul>
-<li>注意点：<ul>
+<li><p>注意点：</p>
+<ul>
 <li>主要是祖先关系的定位流都可以实现绝对定位，那个定位流离它最近就在那里定位</li>
 </ul>
 </li>
-<li>格式：<pre class="line-numbers language-css"><code class="language-css"><span class="token property">position</span><span class="token punctuation">:</span> absolute<span class="token punctuation">;</span>
+<li><p>格式：</p>
+<pre class="line-numbers language-css"><code class="language-css"><span class="token property">position</span><span class="token punctuation">:</span> absolute<span class="token punctuation">;</span>
 <span class="token property">top</span><span class="token punctuation">:</span> 大小px<span class="token punctuation">;</span>              //相当于上外边距
 <span class="token property">right</span><span class="token punctuation">:</span>  大小px<span class="token punctuation">;</span>           //相当于右外边距
 <span class="token property">bottom</span><span class="token punctuation">:</span> 大小px<span class="token punctuation">;</span>       //相当于下外边距
@@ -1343,78 +1356,81 @@ margin: 0;
 </ul>
 </li>
 <li><p>子绝父相：</p>
-<ul>
-<li>将子元素是绝对定位，将父元素是相对定位</li>
-</ul>
+</li>
+<li><p>将子元素是绝对定位，将父元素是相对定位</p>
 </li>
 <li><p>水平居中：</p>
 <pre class="line-numbers language-css"><code class="language-css"><span class="token property">left</span><span class="token punctuation">:</span> <span class="token number">50%</span><span class="token punctuation">;</span>
 <span class="token property">margin-left</span><span class="token punctuation">:</span> 元素宽度的一半<span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 </li>
 <li><p>a标签伪类选择器</p>
-<ul>
-<li>格式：<pre class="line-numbers language-css"><code class="language-css"><span class="token selector">//修改从来被访问过状态下的样式
+<pre class="line-numbers language-css"><code class="language-css"><span class="token selector">//修改从来被访问过状态下的样式
 选择器标签<span class="token pseudo-class">:link</span> 
 </span><span class="token punctuation">{</span>
-<span class="token property">color</span><span class="token punctuation">:</span> 颜色<span class="token punctuation">;</span>
+    <span class="token property">color</span><span class="token punctuation">:</span> 颜色<span class="token punctuation">;</span>
+<span class="token punctuation">}</span> 
+<span class="token selector">//修改被访问过的状态下的样式
+选择器标签<span class="token pseudo-class">:visited</span> 
+</span><span class="token punctuation">{</span>
+    <span class="token property">color</span><span class="token punctuation">:</span> 颜色<span class="token punctuation">;</span>
 <span class="token punctuation">}</span>
-
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<span class="token selector">//修改鼠标悬停状态下的样式
+选择器标签<span class="token pseudo-class">:hover</span>
+</span><span class="token punctuation">{</span>
+    <span class="token property">color</span><span class="token punctuation">:</span> 颜色<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">//修改鼠标长按状态下的样式
+选择器标签<span class="token pseudo-class">:aetive</span> 
+</span><span class="token punctuation">{</span>
+    <span class="token property">color</span><span class="token punctuation">:</span> 颜色<span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<ul>
+<li><p>注意点：</p>
+<ul>
+<li>如果四种同时出现，则必须按照爱恨原则排序<code>love hate</code>，如果需要修改访问过和未访问过的颜色一样时，则可以简写为：</li>
+</ul>
+<pre class="line-numbers language-css"><code class="language-css"><span class="token selector">a
+</span><span class="token punctuation">{</span>
+ <span class="token property">color</span><span class="token punctuation">:</span> 颜色<span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 </li>
 </ul>
 </li>
 </ul>
-<pre><code>//修改被访问过的状态下的样式
-选择器标签:visited 
-{
-color: 颜色;
-}
+<h4 id="0x014：过度模块"><a href="#0x014：过度模块" class="headerlink" title="0x014：过度模块"></a>0x014：过度模块</h4><ul>
+<li><p>基本格式</p>
+<pre class="line-numbers language-css"><code class="language-css"><span class="token selector">transition-property: 变化的标签,变化的标签;
+transition-duration: 秒数,秒数;
+transition-delay: 延时时间s;
 
-//修改鼠标悬停状态下的样式
-选择器标签:hover
-{
-color: 颜色;
-}
-
-//修改鼠标长按状态下的样式
-选择器标签:aetive 
-{
-color: 颜色;
-}
-```
- - 注意点：
-     - 如果四种同时出现，则必须按照爱恨原则排序`love hate`，如果需要修改访问过和未访问过的颜色一样时，则可以简写为：
-```css
-a
-{
-color: 颜色;
-}
-```</code></pre>
-<h4 id="过度模块"><a href="#过度模块" class="headerlink" title="过度模块"></a>过度模块</h4><ul>
-<li>基本格式<pre class="line-numbers language-css"><code class="language-css"><span class="token property">transition-property</span><span class="token punctuation">:</span> 变化的标签,变化的标签<span class="token punctuation">;</span>
-<span class="token property">transition-duration</span><span class="token punctuation">:</span> 秒数,秒数<span class="token punctuation">;</span>
-<span class="token property">transition-delay</span><span class="token punctuation">:</span> 延时时间s<span class="token punctuation">;</span>
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+选择器标签<span class="token pseudo-class">:hover</span>
+</span><span class="token punctuation">{</span>
+变化的宽度,高度,内外边距大小，颜色
+例：<span class="token property">margin</span><span class="token punctuation">:</span> <span class="token number">100</span>px<span class="token punctuation">;</span>
+例：<span class="token property">width</span><span class="token punctuation">:</span> <span class="token number">100</span>px<span class="token punctuation">;</span>
+例：<span class="token property">background-color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 </li>
-</ul>
-<p>选择器标签:hover<br>{<br>变化的宽度,高度,内外边距大小，颜色<br>例：margin: 100px;<br>例：width: 100px;<br>例：background-color: red;<br>}</p>
-<pre><code> - 控制模块移动速度
-    - 格式：
-```css
-选择器标签:nth-child(序数) 标签
-{
-transition-timing-function: 速度;
+<li><p>控制模块移动速度</p>
+<ul>
+<li><p>格式：</p>
+<pre class="line-numbers language-css"><code class="language-css"><span class="token selector">选择器标签<span class="token pseudo-class">:nth-child(序数)</span> 标签
+</span><span class="token punctuation">{</span>
+<span class="token property">transition-timing-function</span><span class="token punctuation">:</span> 速度<span class="token punctuation">;</span>
 linear：匀速
 ease：慢慢变慢
 ease-in：由慢变快
 ease-out：由快变慢
 ease-in-out：由慢变快再变慢
-}</code></pre>
-<ul>
-<li>合并连写<pre class="line-numbers language-css"><code class="language-css"><span class="token property">transition</span><span class="token punctuation">:</span>过渡属性 过渡时长 运动速度 延时时间<span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 </li>
 </ul>
-<h4 id="2D转换模式"><a href="#2D转换模式" class="headerlink" title="2D转换模式"></a>2D转换模式</h4><ul>
+</li>
+<li><p>合并连写</p>
+<pre class="line-numbers language-css"><code class="language-css"><span class="token property">transition</span><span class="token punctuation">:</span>过渡属性 过渡时长 运动速度 延时时间<span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+</li>
+</ul>
+<h4 id="0x015：2D转换模式"><a href="#0x015：2D转换模式" class="headerlink" title="0x015：2D转换模式"></a>0x015：2D转换模式</h4><ul>
 <li>2D图形旋转<pre class="line-numbers language-css"><code class="language-css"><span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">rotate</span><span class="token punctuation">(</span>度数deg<span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 </li>
 <li>2D图形移动<pre class="line-numbers language-css"><code class="language-css"><span class="token property">transform</span><span class="token punctuation">:</span> <span class="token function">translate</span><span class="token punctuation">(</span>水平px,垂直px<span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
@@ -1428,7 +1444,7 @@ ease-in-out：由慢变快再变慢
 <li>透视属性.近大远小<pre class="line-numbers language-css"><code class="language-css"><span class="token property">perspective</span><span class="token punctuation">:</span> 大小px<span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 </li>
 </ul>
-<h4 id="动画模块"><a href="#动画模块" class="headerlink" title="动画模块"></a>动画模块</h4><ul>
+<h4 id="0x016：动画模块"><a href="#0x016：动画模块" class="headerlink" title="0x016：动画模块"></a>0x016：动画模块</h4><ul>
 <li>动画三要素<pre class="line-numbers language-css"><code class="language-css"><span class="token property">animation-nama</span><span class="token punctuation">:</span> xxx<span class="token punctuation">;</span>
 <span class="token property">animation-duration</span><span class="token punctuation">:</span> 时间<span class="token punctuation">;</span>
 <span class="token atrule"><span class="token rule">@keyframs</span> xxx</span>
@@ -2248,7 +2264,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
 
             
                 <i class="fa fa-area-chart"></i> 站点总字数:&nbsp;
-                <span class="white-color">15.6k</span> 字
+                <span class="white-color">15.7k</span> 字
             
 
             
@@ -2473,10 +2489,10 @@ $(function () {
   </script>
         
 
-    <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/shizuku.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script><script>
+    <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/shizuku.model.json"},"display":{"position":"left","width":150,"height":200},"mobile":{"show":false},"react":{"opacity":0.7}});</script><!-- hexo-inject:begin --><!-- hexo-inject:end --><script>
             window.imageLazyLoadSetting = {
                 isSPA: false,
                 processImages: null,
             };
-        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=i;var e=n.imageLazyLoadSetting.isSPA,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function i(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight||document.documentElement.clientHeight)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},n.src=i}()}i(),n.addEventListener("scroll",function(){var t,e;t=i,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script><!-- hexo-inject:begin --><!-- hexo-inject:end --></body>
+        </script><script>window.addEventListener("load",function(){var t=/\.(gif|jpg|jpeg|tiff|png)$/i,r=/^data:image\/[a-z]+;base64,/;Array.prototype.slice.call(document.querySelectorAll("img[data-original]")).forEach(function(a){var e=a.parentNode;"A"===e.tagName&&(e.href.match(t)||e.href.match(r))&&(e.href=a.dataset.original)})});</script><script>!function(n){n.imageLazyLoadSetting.processImages=i;var e=n.imageLazyLoadSetting.isSPA,r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function i(){e&&(r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]")));for(var t,a=0;a<r.length;a++)0<=(t=(t=r[a]).getBoundingClientRect()).bottom&&0<=t.left&&t.top<=(n.innerHeight||document.documentElement.clientHeight)&&function(){var t,e,n,i,o=r[a];t=o,e=function(){r=r.filter(function(t){return o!==t})},n=new Image,i=t.getAttribute("data-original"),n.onload=function(){t.src=i,e&&e()},n.src=i}()}i(),n.addEventListener("scroll",function(){var t,e;t=i,e=n,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(e)},500)})}(this);</script></body>
 </html>
