@@ -291,20 +291,6 @@
 
   
   <url>
-    <loc>http://www.cjlblog.vip/tags/Java/</loc>
-    <lastmod>2021-04-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.cjlblog.vip/tags/Java%E5%AF%B9%E8%AF%9D%E6%A1%86/</loc>
-    <lastmod>2021-04-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://www.cjlblog.vip/tags/Anaconda/</loc>
     <lastmod>2021-04-23</lastmod>
     <changefreq>daily</changefreq>
@@ -313,6 +299,20 @@
   
   <url>
     <loc>http://www.cjlblog.vip/tags/Python/</loc>
+    <lastmod>2021-04-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.cjlblog.vip/tags/Java/</loc>
+    <lastmod>2021-04-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.cjlblog.vip/tags/Java%E5%AF%B9%E8%AF%9D%E6%A1%86/</loc>
     <lastmod>2021-04-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -354,6 +354,13 @@
   </url>
   
   <url>
+    <loc>http://www.cjlblog.vip/tags/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB/</loc>
+    <lastmod>2021-04-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://www.cjlblog.vip/tags/%E5%8F%98%E9%87%8F%E4%BD%9C%E7%94%A8%E5%9F%9F/</loc>
     <lastmod>2021-04-23</lastmod>
     <changefreq>daily</changefreq>
@@ -362,13 +369,6 @@
   
   <url>
     <loc>http://www.cjlblog.vip/tags/%E9%87%8D%E5%86%99%E4%B8%8E%E9%87%8D%E8%BD%BD/</loc>
-    <lastmod>2021-04-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.cjlblog.vip/tags/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB/</loc>
     <lastmod>2021-04-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -389,14 +389,14 @@
   </url>
   
   <url>
-    <loc>http://www.cjlblog.vip/tags/Markdown/</loc>
+    <loc>http://www.cjlblog.vip/tags/MySQL/</loc>
     <lastmod>2021-04-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://www.cjlblog.vip/tags/MySQL/</loc>
+    <loc>http://www.cjlblog.vip/tags/Markdown/</loc>
     <lastmod>2021-04-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -454,14 +454,14 @@
 
   
   <url>
-    <loc>http://www.cjlblog.vip/categories/Java%E7%AF%87/</loc>
+    <loc>http://www.cjlblog.vip/categories/Python%E7%AF%87/</loc>
     <lastmod>2021-04-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://www.cjlblog.vip/categories/Python%E7%AF%87/</loc>
+    <loc>http://www.cjlblog.vip/categories/Java%E7%AF%87/</loc>
     <lastmod>2021-04-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -475,14 +475,14 @@
   </url>
   
   <url>
-    <loc>http://www.cjlblog.vip/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    <loc>http://www.cjlblog.vip/categories/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AF%87/</loc>
     <lastmod>2021-04-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://www.cjlblog.vip/categories/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AF%87/</loc>
+    <loc>http://www.cjlblog.vip/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2021-04-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
